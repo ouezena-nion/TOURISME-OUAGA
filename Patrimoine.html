@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrimoine - OUAGAGOUDOU</title>
+    <style>  
+        body {  
+            background-color: #f0f0f0;  
+            font-family: Arial, sans-serif;  
+        }  
+        header, nav, footer {  
+            background-color: #333;  
+            color: white;  
+            padding: 10px;  
+            text-align: center;  
+        }  
+        nav a {  
+            color: white;  
+            margin: 15px;  
+            text-decoration: none;  
+        }  
+        .container {  
+            padding: 20px;  
+            text-align: center;  
+        }  
+        .heritage-list {  
+            display: grid;  
+            grid-template-columns: repeat(3, 1fr);   
+            gap: 10px;   
+            padding: 20px; 
+        }  
+        .heritage-list img {  
+            width: 600px;      
+            height: 200px;     
+            object-fit: cover; 
+            background-color: grey;  
+        }  
+        p {
+    font-family: sans-serif;
+    font-size: 16px;
+    }
+
+    @media screen and (min-width: 640px) {
+        p {
+            font-size: 21px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OUAGADOUGOU</h1>
+        <img src="logo.jpg"width="800" height="575" alt="Logo de la Ville">
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="Patrimoine.html">Patrimoine</a>
+        <a href="reservation.html">Réservation d'hôtel</a>
+        <a href="Galerie.html">Galerie</a>
+    </nav>
+    <div class="container">
+        <section id="patrimoine">
+            <h2>Sites Patrimoniaux</h2>
+            <div class="heritage-list">
+                <a href="Site 1.html"><img src="Village artisanal.jpg" alt="Village artisanal de Ouagadougou"></a>
+                <a href="Site 2.html"><img src="Parc.jpg" alt="Parc urbain Bangr-wéogo"></a>
+                <a href="Site 3.html"><img src="Bazoulé.jpg" alt="Les crocodiles sacrés de Bazoulé"></a>
+                <a href="Site 4.html"><img src="laongo.jpg" alt="Les sculptures sur granit de Laongo"></a>
+                <a href="Site 5.html"><img src="monument.jpg" alt="Monument des Héros nationaux du Burkina Faso"></a>
+                <a href="Site 6.html"><img src="Musée.jpg" alt="Le musée national du Burkina Faso"></a>
+                <a href="Site 7.html"><img src="SIAO.jpg" alt="Salon International des Arts de Ouagadougou"></a>
+                <a href="Site 8.html"><img src="Cathédrale.jpg" alt="La cathédrale de l'immaculée de Ouagadougou"></a>
+                <a href="Site 9.html"><img src="thomsank.jpg" alt="Mémorial Thomas SANKARA"></a>
+                <a href="Site 10.html"><img src="musée_georges.jpg" alt="Musée de la musique Georges OUEDRAOGO"></a>
+                <a href="Site 11.html"><img src="mosquée.jpg" alt="La grande Mosquée de Ouagadougou"></a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Ouagadougou. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

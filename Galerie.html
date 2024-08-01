@@ -1,0 +1,96 @@
+
+
+<!DOCTYPE html>  
+<html lang="fr">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Galerie - Ouagadougou</title>  
+    <style>  
+        body {  
+            background-color: #f0f0f0;  
+            font-family: Arial, sans-serif;  
+        }  
+        header, nav, footer {  
+            background-color: #333;  
+            color: white;  
+            padding: 10px;  
+            text-align: center;  
+        }  
+        nav a {  
+            color: white;  
+            margin: 15px;  
+            text-decoration: none;  
+        }  
+        .container {  
+            padding: 20px;  
+            text-align: center;  
+        }  
+        .heritage-list {  
+            display: grid;  
+            grid-template-columns: repeat(3, 1fr);   
+            gap: 05px;   
+            padding: 20px; 
+        }  
+        .heritage-list img {  
+            width: 600px;      
+            height: 200px;     
+            object-fit: cover; 
+            background-color: grey;  
+        }  
+
+            p {
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+
+    /* Styles pour les écrans plus larges (à partir de 640px) */
+    @media screen and (min-width: 640px) {
+        p {
+            font-size: 21px;
+        }
+    }
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <h1>Ouagadougou</h1>  
+        <img src="logo.jpg" alt="Logo de la Ville">  
+    </header>  
+    <nav>  
+        <a href="index.html">Accueil</a>  
+        <a href="Patrimoine.html">Patrimoine</a>  
+        <a href="reservation.html">Réservation d'hôtel</a>  
+        <a href="Galerie.html">Galerie</a>  
+    </nav>  
+    <div class="container">  
+        <section id="galerie">  
+            <h2>Galerie</h2>  
+            <div class="heritage-list">  
+                <img src="village artisanal.jpg" alt="Site 1">  
+                <img src="Parc.jpg" alt="Site 2">  
+                <img src="Bazoulé.jpg" alt="Site 3">  
+                <img src="laongo.jpg" alt="Site 4">  
+                <img src="monument.jpg" alt="Site 5">  
+                <img src="Musée.jpg" alt="Site 6">  
+                <img src="SIAO.jpg" alt="Site 7">  
+                <img src="Cathédrale.jpg" alt="Site 8">  
+                <img src="thomsank.jpg" alt="Site 9">  
+                <img src="musée_georges.jpg" alt="Site 10">  
+                <img src="mosquée.jpg" alt="Site 11">  
+                <img src="photo2.jpg" alt="Site 12">  
+                <img src="photo3.jpg" alt="Site 13">
+                <img src="photo4.jpg" alt="Site 14">
+                <img src="photo5.jpg" alt="Site 15">
+                <img src="photo6.jpg" alt="Site 16">
+                <img src="photo7.jpg" alt="Site 17">
+                <img src="photo8.jpg" alt="Site 18">
+ 
+            </div>  
+        </section>  
+    </div>  
+    <footer>  
+        <p>© 2024 Ouagadougou. Tous droits réservés.</p>  
+    </footer>  
+</body>  
+</html>
